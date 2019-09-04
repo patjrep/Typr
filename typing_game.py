@@ -80,10 +80,10 @@ def main_menu():
 #Actual game mechanics
 def typing_game():
 
-    game_start = str(input("Start Game? (Y/N): ")).lower()
+    game_start = str(input("\nStart Game? (Y/N): ")).lower()
 
     if game_start == 'y':
-        print("Get ready...\n")
+        print("\nGet ready...\n")
         t.sleep(1)
         print("Get Set...\n")
         t.sleep(1)
@@ -107,8 +107,9 @@ def typing_game():
             add_score(name, wpm)
             main_menu()
         else:
-            pass
-            #compare the two sentences here to see the accuraccy of the player's typing (maybe split by word or character to get exact percentage match)
+            print("\nTry again!\n")
+            t.sleep(1)
+            main_menu()
 
     else:
         if game_start in ['N', 'n']:

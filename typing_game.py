@@ -61,6 +61,10 @@ def game_rules():
     else:
         game_rules()
 
+def accuracy_calculator(player_input_arr, random_sentence_arr):
+    print(player_input_arr, random_sentence_arr)
+
+
 #Player menu options
 def main_menu():
     print("   ~~Welcome~~\n       To      \n ~The Typing Game~\n")
@@ -102,14 +106,30 @@ def typing_game():
             print("Your total time was", time_seconds,'\n')
             wpm = float(round(((60 / time_seconds) * number_of_words), 2))
             print("You have a typing speed of", wpm, "WPM\n")
+            accuracy = 100
+            print("You have an accuracy of ", accuracy, '%\n')
             #scores = score_list()
             name = input("What is your name?: ")
             add_score(name, wpm)
             main_menu()
         else:
-            print("\nTry again!\n")
-            t.sleep(1)
-            main_menu()
+            pass
+            '''if player_input != random_sentence:
+                player_input_arr = []
+                random_sentence_arr = []
+                for char in player_input:
+                    player_input_arr.append(char)
+                for i in random_sentence:
+                    random_sentence_arr.append(i)
+                #return player_input_arr, random_sentence_arr
+                print(random_sentence_arr)
+                print(player_input_arr)
+                #length_input = player_input_arr.len()
+                #length_sentence = random_sentence_arr.len()
+                print("length is", length_input/length_sentence)
+            #print("\nTry again!\n")
+            #t.sleep(1)
+            #main_menu()'''
 
     else:
         if game_start in ['N', 'n']:

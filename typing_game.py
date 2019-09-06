@@ -38,7 +38,6 @@ def score_sorter():
         scores_list = [x for x in scores_list if x != []]
         for score in scores_list:
             score[1]=float(score[1])
-        #print(scores_list)
         return sorter(scores_list)
 
 #Sorts the list by WPM using bubble sort and lambda, then returns
@@ -62,21 +61,10 @@ def game_rules():
     else:
         game_rules()
 
-'''def accuracy_calculator(player_input_arr, random_sentence_arr#, name, wpm):
-    similarity = round(((SequenceMatcher(None, player_input_arr, random_sentence_arr).ratio()) * 100),2)
-    print("\nYou typed the sentence with ", similarity, " % accuracy!")
-    t.sleep(1)
-    mmenu = input("\nPress any key to go to the main menu: ")
-    if mmenu == True:
-        main_menu()
-    else:
-        main_menu()'''
-
-
 #Player menu options
 def main_menu():
-    print("   ~~Welcome~~\n       To      \n ~The Typing Game~\n")
-    menu_choice = input("What would you like to do?\n(P)lay Game\n(R)ules\n(H)igh Score List\n(Q)uit\n > ")
+    print("\n\n\n\n\n\n\n\n\n   ~~Welcome~~\n\n       To\n\n      \n ~The Typing Game~\n\n\n\n")
+    menu_choice = input("What would you like to do?\n\n\n(P)lay Game\n\n(R)ules\n\n(H)igh Score List\n\n(Q)uit\n > ")
     if menu_choice in ['P', 'p']:
         typing_game()
         print("Game")

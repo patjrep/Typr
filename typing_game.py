@@ -4,6 +4,7 @@ import time as t
 import datetime as dt
 from quotes_list import quote_list
 import csv
+from difflib import SequenceMatcher
 
 #Picks a random sentence to type
 def normal_sentences():
@@ -61,8 +62,15 @@ def game_rules():
     else:
         game_rules()
 
-def accuracy_calculator(player_input_arr, random_sentence_arr):
-    print(player_input_arr, random_sentence_arr)
+'''def accuracy_calculator(player_input_arr, random_sentence_arr#, name, wpm):
+    similarity = round(((SequenceMatcher(None, player_input_arr, random_sentence_arr).ratio()) * 100),2)
+    print("\nYou typed the sentence with ", similarity, " % accuracy!")
+    t.sleep(1)
+    mmenu = input("\nPress any key to go to the main menu: ")
+    if mmenu == True:
+        main_menu()
+    else:
+        main_menu()'''
 
 
 #Player menu options
@@ -103,33 +111,36 @@ def typing_game():
             t.sleep(0.5)
             time = time_end - time_start
             time_seconds = round(time.total_seconds(), 2)
-            print("Your total time was", time_seconds,'\n')
+            print("Your total time was", time_seconds,'seconds!\n')
             wpm = float(round(((60 / time_seconds) * number_of_words), 2))
             print("You have a typing speed of", wpm, "WPM\n")
             accuracy = 100
-            print("You have an accuracy of ", accuracy, '%\n')
+            print("You have an accuracy of", accuracy, '%\n')
             #scores = score_list()
             name = input("What is your name?: ")
             add_score(name, wpm)
             main_menu()
         else:
-            pass
-            '''if player_input != random_sentence:
-                player_input_arr = []
-                random_sentence_arr = []
-                for char in player_input:
-                    player_input_arr.append(char)
-                for i in random_sentence:
-                    random_sentence_arr.append(i)
-                #return player_input_arr, random_sentence_arr
-                print(random_sentence_arr)
-                print(player_input_arr)
-                #length_input = player_input_arr.len()
-                #length_sentence = random_sentence_arr.len()
-                print("length is", length_input/length_sentence)
-            #print("\nTry again!\n")
-            #t.sleep(1)
-            #main_menu()'''
+            player_input_arr = []
+            random_sentence_arr = []
+            for char in player_input:
+                player_input_arr.append(char)
+            for i in random_sentence:
+                random_sentence_arr.append(i)
+            time_end = dt.datetime.now()
+            print("Complete!\n")
+            t.sleep(0.5)
+            time = time_end - time_start
+            time_seconds = round(time.total_seconds(), 2)
+            print("Your total time was", time_seconds,'seconds!\n')
+            wpm = float(round(((60 / time_seconds) * number_of_words), 2))
+            similarity = round(((SequenceMatcher(None, player_input_arr, random_sentence_arr).ratio()) * 100),2)
+            print("You typed the sentence with ", similarity, " % accuracy!")
+            print("\nYou have a typing speed of", wpm, "WPM\n")
+            name = input("What is your name?: ")
+            t.sleep(1)
+            add_score(name, wpm)
+            main_menu()
 
     else:
         if game_start in ['N', 'n']:

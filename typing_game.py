@@ -106,6 +106,8 @@ def typing_game():
             print("You have an accuracy of", accuracy, '%\n')
             #scores = score_list()
             name = input("What is your name?: ")
+            print("Added to high scores list!")
+            t.sleep(1)
             add_score(name, wpm)
             main_menu()
         else:
@@ -125,9 +127,10 @@ def typing_game():
             similarity = round(((SequenceMatcher(None, player_input_arr, random_sentence_arr).ratio()) * 100),2)
             print("You typed the sentence with ", similarity, " % accuracy!")
             print("\nYou have a typing speed of", wpm, "WPM\n")
-            name = input("What is your name?: ")
-            t.sleep(1)
-            add_score(name, wpm)
+            print("\nGet 100% accuracy to be added to the high score list!")
+            #name = input("What is your name?: ")
+            #t.sleep(1)
+            #add_score(name, wpm)
             main_menu()
 
     else:

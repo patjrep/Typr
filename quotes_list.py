@@ -17,6 +17,7 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "The mind is everything. What you think you become.",
  "The best time to plant a tree was 20 years ago. The second best time is now.",
  "An unexamined life is not worth living.",
+ "Take a break bud. Typing is tiring!",
  "Eighty percent of success is showing up.",
  "Your time is limited, so don't waste it living someone else's life.",
  "Winning isn't everything, but wanting to win is.",

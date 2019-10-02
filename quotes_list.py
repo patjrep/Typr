@@ -114,5 +114,6 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "Prioritize real work, not image.",
  "Learn to be grateful from the good things in your life and learn to be strong from the bad things in your life.",
  "Failure only happens when we give up.",
- "If you have decided to pursue a field, be a consistent person. That is the real key to success."
+ "If you have decided to pursue a field, be a consistent person. That is the real key to success.",
+ "Programs must be written for people to read, and only incidentally for machines to execute."
 ]

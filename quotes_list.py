@@ -1,4 +1,5 @@
 quote_list = [ 
+ "My son got a new smart phone...",
  "Do, not due.",
  "Life isn't about getting and having, it's about giving and being.",
  "Whatever the mind of man can conceive and believe, it can achieve.",

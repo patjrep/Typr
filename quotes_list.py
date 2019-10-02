@@ -101,5 +101,6 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "Either write something worth reading or do something worth writing.",
  "Nothing is impossible, the word itself says, “I'm possible!”",
  "The only way to do great work is to love what you do.",
- "If you can dream it, you can achieve it."
+ "If you can dream it, you can achieve it.",
+ "History doesn't repeat itself but it often rhymes"
 ]

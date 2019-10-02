@@ -19,6 +19,7 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "An unexamined life is not worth living.",
  "Take a break bud. Typing is tiring!",
  "Eighty percent of success is showing up.",
+ "Thanks for helping out with hacktober!",
  "Your time is limited, so don't waste it living someone else's life.",
  "Winning isn't everything, but wanting to win is.",
  "I am not a product of my circumstances. I am a product of my decisions.",

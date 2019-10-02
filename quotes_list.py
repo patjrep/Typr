@@ -1,4 +1,5 @@
 quote_list = [ 
+ "I don't know why you say goodbye",
  "I say hello",
  "It's a blackberry curve",
  "My son got a new smart phone...",

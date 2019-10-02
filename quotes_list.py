@@ -102,5 +102,10 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "Nothing is impossible, the word itself says, “I'm possible!”",
  "The only way to do great work is to love what you do.",
  "If you can dream it, you can achieve it.",
- "History doesn't repeat itself but it often rhymes"
+ "History doesn't repeat itself but it often rhymes",
+ "pleasure satisfaction is the most superficial satisfaction of life and therefore this is very easy to achieve and very easy to disappear.",
+ "If we are not willing to fail we are also not willing to succeed",
+ "Fear of failure most come from choosing bad values",
+ "If someone is better than you about something, it looks like it's because he has experienced more failures than you.",
+ "some of the great moments of human are unpleasant, unsuccessful, unrecognized, and not positive."
 ]

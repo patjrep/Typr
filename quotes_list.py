@@ -107,7 +107,7 @@ quote_list = [ "Life isn't about getting and having, it's about giving and being
  "If we are not willing to fail we are also not willing to succeed",
  "Fear of failure most come from choosing bad values",
  "If someone is better than you about something, it looks like it's because he has experienced more failures than you.",
- "some of the great moments of human are unpleasant, unsuccessful, unrecognized, and not positive.",
+ "Some of the greatest moments of human life are unpleasant, unsuccessful, unrecognized, and not positive.",
  "A man can never be a big man without a great woman by his side who always gives support and hope in every step and decision taken.",
  "Without love intelligence is dangerous, and without love intelligence is not enough.",
  "Experience cannot be learned, but must be passed.",

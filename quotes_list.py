@@ -124,4 +124,5 @@ quote_list = [
  "Programs must be written for people to read, and only incidentally for machines to execute.",
  "Sine squared theta plus cosine squared theta equals one.",
  "Failure is a step towards success.",
+ "Be the CEO your parents always wanted to marry",
 ]

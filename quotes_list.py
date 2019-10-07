@@ -126,5 +126,6 @@ quote_list = [
  "Sine squared theta plus cosine squared theta equals one.",
  "Failure is a step towards success.",
  "Do, or do not. There is no try.",
- "Be the CEO your parents always wanted to marry"
+ "Be the CEO your parents always wanted to marry",
+ "Honesty is the first chapter in the book of wisdom."
 ]

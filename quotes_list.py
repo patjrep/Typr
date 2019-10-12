@@ -127,5 +127,27 @@ quote_list = [
  "Failure is a step towards success.",
  "Do, or do not. There is no try.",
  "Be the CEO your parents always wanted to marry",
- "Honesty is the first chapter in the book of wisdom."
+ "Honesty is the first chapter in the book of wisdom.",
+ "Don't let yesterday take up too much of today.”,
+ "Never let your past decisions determine your future outcome.",
+ "Our character is not defined in the good times, but in the hard times.",
+ "No one can give you your goals. No one can dig for you. This is your journey.",
+ "Quitters never win. Winners never quit!",
+ "Everyone has the potential to live a fulfilling life. The difference lies in how we look at things.",
+ "Whenever you see a successful business, someone once made a courageous decision.",
+ "Life without purpose is meaningless.",
+ "Some people dream of success, while other people get up every morning and make it happen.",
+ "Ambition is the path to success. Persistence is the vehicle you arrive in.",
+ "Remember to focus on goals that are within your control.",
+ "The truly rich are those who enjoy what they have.",
+ "Whether you think you can or think you can't you're right.",
+ "Do not take life too seriously. You will never get out of it alive.",
+ "If you think you are too small to make a difference, try sleeping in a room with a mosquito.",
+ "Aspire to inspire before we expire.",
+ "When life puts you in a tough situation, don’t say 'Why me?', say 'Try me'.",
+ "The elevator to success is out of order. You’ll have to use the stairs…one step at a time.",
+ "Do not listen to those who weep and complain, for their disease is contagious.",
+ "Hating people is like burning down your own home to get rid of a rat.",
+ 
+ 
 ]

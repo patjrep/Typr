@@ -14,8 +14,8 @@ def normal_sentences():
 #Adds Username and Score to CSV File
 def add_score(name, wpm):
     with open('scoring.csv', 'a+') as scores:
-        score_tracker = csv.writer(scores)
-        score_row = [name, wpm]
+        score_tracker = csv.writer(scores)#, delimiter=',')
+        score_row = [(name), (wpm)]
         score_tracker.writerow(score_row)
 
 #Takes the scores_list argument and prints it neatly
@@ -128,9 +128,11 @@ def typing_game():
             print("You typed the sentence with ", similarity, " % accuracy!")
             print("\nYou have a typing speed of", wpm, "WPM\n")
             print("\nGet 100% accuracy to be added to the high score list!")
-            #name = input("What is your name?: ")
-            #t.sleep(1)
-            #add_score(name, wpm)
+            if similarity == 100:
+                name = input("What is your name?: ")
+                t.sleep(1)
+                add_score(name, wpm)
+
             main_menu()
 
     else:

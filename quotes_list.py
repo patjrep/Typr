@@ -121,5 +121,6 @@ quote_list = [
  "Learn to be grateful from the good things in your life and learn to be strong from the bad things in your life.",
  "Failure only happens when we give up.",
  "If you have decided to pursue a field, be a consistent person. That is the real key to success.",
- "Programs must be written for people to read, and only incidentally for machines to execute."
+ "Programs must be written for people to read, and only incidentally for machines to execute.",
+ "Answer. The answer is the answer."
 ]

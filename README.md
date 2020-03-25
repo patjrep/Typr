@@ -1,6 +1,6 @@
 ## Typing Game
 
-Hello GitHub members! This repository is a Python based game to help users to type faster, and more accurately. Here's how it works:
+This repository is a Python based game to help users to type faster, and more accurately. Here's how it works:
 
 The Python script chooses a random sentence from a quote list and the player has to match the sentence exactly, and then outputs the amount of time taken as well as the total WPM (Words Per Minute).
 

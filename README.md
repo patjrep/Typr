@@ -12,4 +12,6 @@ There is also a high scores list that keeps track of all the scores entered. Whe
 
 Just follow the in-game directions! The Letter at the beginning of each menu key indicates what button to press for that choice.
 
+Note: Game is compatible with Python 3, not any lower versions.
+
 <b><u> Have fun! </u></b> 

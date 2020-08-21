@@ -1,4 +1,4 @@
-## Typing Game
+## Typr
 
 This repository is a Python based game to help users to type faster, and more accurately. Here's how it works:
 

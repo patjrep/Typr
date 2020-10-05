@@ -6,7 +6,7 @@ from quotes_list import quote_list
 import csv
 from difflib import SequenceMatcher
 
-# test
+# t
 # Picks a random sentence to type
 
 

@@ -12,6 +12,8 @@ from difflib import SequenceMatcher
 #even more changes
 #comment here
 #comment 3
+#thanks for letting me participate in hacktoberfest
+
 
 
 def normal_sentences():

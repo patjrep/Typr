@@ -8,14 +8,6 @@ from difflib import SequenceMatcher
 
 # Picks a random sentence to type
 
-#comment
-#even more changes
-#comment here
-#comment 3
-#thanks for letting me participate in hacktoberfest!
-
-
-
 def normal_sentences():
     random_sentence_pick = quote_list[random.randint(0, len(quote_list)-1)]
     return random_sentence_pick

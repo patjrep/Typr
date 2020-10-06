@@ -8,6 +8,8 @@ from difflib import SequenceMatcher
 
 # Picks a random sentence to type
 
+#comment
+
 
 def normal_sentences():
     random_sentence_pick = quote_list[random.randint(0, len(quote_list)-1)]

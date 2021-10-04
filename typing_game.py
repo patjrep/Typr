@@ -171,6 +171,4 @@ def main():
 if __name__ == "__main__":
     main()
 
-
-#Optimizations
-#Optimize
+#End

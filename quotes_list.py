@@ -146,6 +146,5 @@ quote_list = [
     "The elevator to success is out of order. You’ll have to use the stairs…one step at a time.",
     "Do not listen to those who weep and complain, for their disease is contagious.",
     "Hating people is like burning down your own home to get rid of a rat.",
-    "Answer. The answer is the answer.",
-    "Do or do not, there is no try."
+    "Answer. The answer is the answer."
 ]

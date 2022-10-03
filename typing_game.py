@@ -1,5 +1,6 @@
 import random
 import json
+import requests
 import time as t
 import datetime as dt
 from quotes_list import quote_list
@@ -11,6 +12,13 @@ from difflib import SequenceMatcher
 def normal_sentences():
     random_sentence_pick = quote_list[random.randint(0, len(quote_list)-1)]
     return random_sentence_pick
+
+# Picks a random quote from ZenQuotes api
+
+
+def get_api_sentence():
+    random_sentence = requests.get('https://zenquotes.io/api/random').json()[0]['q']
+    return random_sentence
 
 # Adds Username and Score to CSV File
 
@@ -99,6 +107,8 @@ def typing_game():
 
     game_start = str(input("\nStart Game? (Y/N): ")).lower()
 
+    api_choice = str(input("\nDo you want to get quotes from an api? (Y/N): ")).lower()
+
     if game_start == 'y':
         print("\nGet ready...\n")
         t.sleep(1)
@@ -106,7 +116,10 @@ def typing_game():
         t.sleep(1)
         print("Go!\n")
         t.sleep(0.5)
-        random_sentence = normal_sentences()
+        if api_choice == 'n':
+            random_sentence = normal_sentences()
+        else:
+            random_sentence = get_api_sentence()
         number_of_words = len(random_sentence.split())
         time_start = dt.datetime.now()
         player_input = input(

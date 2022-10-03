@@ -78,6 +78,7 @@ quote_list = [
     "There are no traffic jams along the extra mile.",
     "It is never too late to be what you might have been.",
     "You become what you believe.",
+    "I become what i believed.",
     "We push the body so it will not disobey the mind.",
     "I would rather die of passion than of boredom.",
     "A truly rich man is one whose children run into his arms when his hands are empty.",

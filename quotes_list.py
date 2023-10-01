@@ -1,7 +1,7 @@
 quote_list = [
     "I don't know why you say goodbye",
     "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
-    "Build an undeniable stack of proof that you are who you say you are .",
+    "Build an undeniable stack of proof that you are who you say you are  .",
     "I say hello ",
     "It's a blackberry curve",
     "My son got a new smart phone...",

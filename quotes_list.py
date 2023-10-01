@@ -1,7 +1,7 @@
 quote_list = [
     "I don't know why you say goodbye",
     "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
-    "I say hello.",
+    "I say hello ",
     "It's a blackberry curve",
     "My son got a new smart phone...",
     "Whatever the mind of man can conceive and believe, it can achieve.",

@@ -1,11 +1,9 @@
 quote_list = [
     "I don't know why you say goodbye",
     "A successful man is one who can lay a firm foundation with the bricks others have thrown at him.",
-    "I say hello",
+    "I say hello.",
     "It's a blackberry curve",
     "My son got a new smart phone...",
-    "Do, not due.",
-    "Life isn't about getting and having, it's about giving and being. ",
     "Whatever the mind of man can conceive and believe, it can achieve.",
     "Strive not to be a success, but rather to be of value.",
     "Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.",

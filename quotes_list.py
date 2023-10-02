@@ -127,7 +127,7 @@ quote_list = [
     "Do, or do not. There is no try.",
     "Be the CEO your parents always wanted to marry",
     "Honesty is the first chapter in the book of wisdom.",
-    "Don't let yesterday take up too much of today.",
+    "Do not let yesterday take up too much of today.",
     "Never let your past decisions determine your future outcome.",
     "Our character is not defined in the good times, but in the hard times.",
     "No one can give you your goals. No one can dig for you. This is your journey.",

@@ -13,15 +13,15 @@ def normal_sentences():
     random_sentence_pick = quote_list[random.randint(0, len(quote_list)-1)]
     return random_sentence_pick
 
-# Picks a random quote from ZenQuotes api
 
+# Picks a random quote from ZenQuotes api
 
 def get_api_sentence():
     random_sentence = requests.get('https://zenquotes.io/api/random').json()[0]['q']
     return random_sentence
 
-# Adds Username and Score to CSV File
 
+# Adds Username and Score to CSV File
 
 def add_score(name, wpm):
     with open('scoring.csv', 'a+') as scores:
@@ -42,8 +42,8 @@ def high_score_list(scores_list):
     else:
         high_score_list(scores_list)
 
-# Appends CSV to a list of lists, removes blank lines from the list, converts str to floats, then returns the list
 
+# Appends CSV to a list of lists, removes blank lines from the list, converts str to floats, then returns the list
 
 def score_sorter():
     with open('scoring.csv', newline='') as File:
@@ -56,8 +56,8 @@ def score_sorter():
             score[1] = float(score[1])
         return sorter(scores_list)
 
-# Sorts the list by WPM using bubble sort and lambda, then returns
 
+# Sorts the list by WPM using bubble sort and lambda, then returns
 
 def sorter(scores_list):
     l = len(scores_list)
@@ -100,8 +100,8 @@ def main_menu():
         t.sleep(1)
         quit()
 
-# Actual game mechanics
 
+# Actual game mechanics
 
 def typing_game():
 

@@ -102,7 +102,7 @@ quote_list = [
     "Life is what we make it, always has been, always will be.",
     "The question isn't who is going to let me; it's who is going to stop me.",
     "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it.",
-    "It's not the years in your life that count. It's the life in your years.",
+    "It is not the years in your life that count. It is the life in your years.",
     "Change your thoughts and you change your world.",
     "Either write something worth reading or do something worth writing.",
     "Nothing is impossible, the word itself says, “I'm possible!”",
